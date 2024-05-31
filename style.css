@@ -1,0 +1,333 @@
+/*general settings*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+.centered-container {
+  margin: 0 auto;
+}
+.grid--1--col {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+/*section navigation*/
+.nav-links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2rem;
+}
+
+.link a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: azure;
+}
+.nav-bar {
+  padding: 2rem 0;
+
+  background-color: black;
+}
+/*main hero section*/
+
+.section-header {
+  background-color: black;
+}
+
+.hero {
+  padding: 0 8.2rem;
+  position: relative;
+}
+.hero-bg-img {
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+.hero-bg-img img {
+  width: 100%;
+  transform: translate();
+}
+.hero-txt {
+  color: white;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.hero-bttns {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.hero-bttns a {
+  color: white;
+  text-decoration: none;
+}
+.hero-main-heading {
+  font-size: 4.8rem;
+  font-weight: 600;
+}
+.hero-sub-heading {
+  font-size: 2.4rem;
+  font-weight: 400;
+}
+.btn {
+  font-size: 1.7rem;
+  font-weight: 400;
+  background-color: blue;
+  padding: 1.1rem 2rem;
+  border-radius: 25rem;
+}
+.learn-more-btn {
+}
+/* section 2 - iphone*/
+.section-iphone {
+  margin-top: 1.2rem;
+  height: 100vh;
+}
+.iphone-container {
+  padding-left: 3.2rem;
+  position: relative;
+  background-color: black;
+}
+
+.iphone-section-img img {
+  width: 100%;
+  object-fit: cover;
+}
+.iphone-section-txt {
+  color: white;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+/*iphone 15*/
+
+.section-iphone15 {
+  margin-top: 1rem;
+
+  overflow: hidden;
+}
+
+.iphone15-container {
+  height: 100vh;
+  background-image: url("https://www.apple.com/v/home/bn/images/heroes/iphone-15/hero_iphone15_announce__uuemlcwczn6u_small_2x.jpg");
+  background-size: 100%;
+  background-position: 0 50%;
+  position: relative;
+}
+
+.iphone15-img {
+}
+
+.iphone15-txt {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+/*grid section*/
+.section-grid {
+  margin-top: 1.2rem;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.2rem;
+}
+.grid-element-1
+  .grid-element-2
+  .grid-element-3
+  .grid-element-4
+  .grid-element-5
+  .grid-element-6 {
+  background-color: blueviolet;
+  height: 100vh;
+}
+.grid-element-img img {
+  width: 100%;
+}
+.grid-element-1 {
+  position: relative;
+}
+.grid-element-txt--1 {
+  color: aliceblue;
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  font-size: 1.9rem;
+  text-align: center;
+}
+.grid-element-txt--1 div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.learn-more-btn-size {
+  color: aliceblue;
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+
+.element-txt--2-heading {
+  font-size: 3.2rem;
+  font-weight: 600;
+  color: aliceblue;
+}
+.element-txt--2-subheading {
+  font-size: 1.9rem;
+  font-weight: 400;
+  color: aliceblue;
+}
+
+.grid-element-2 {
+  position: relative;
+}
+
+.grid-element-txt--2 {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 2rem;
+}
+.grid-element-txt--2 div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.grid-element-3 {
+  position: relative;
+}
+.grid-element-txt--3 {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+.element-txt--3-heading {
+  font-size: 2rem;
+  font-weight: 400;
+  text-align: center;
+}
+.btn--flex {
+  display: flex;
+  align-items: center;
+  gap: 1.8rem;
+}
+.visionpro-logo {
+  width: 80%;
+}
+.element-logo-txt--3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.2rem;
+}
+.grid-element-4 {
+  position: relative;
+}
+.grid-element-txt--4 {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+.fitness-logo {
+  width: 70%;
+}
+.element-logo-txt--4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.grid-element-5 {
+  position: relative;
+}
+.grid-element-txt--5 {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.5rem;
+}
+.trade-logo {
+  width: 70%;
+}
+.element-logo-txt--5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.2rem;
+}
+.grid-element-6 {
+  position: relative;
+}
+.grid-element-txt--6 {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+.card-logo {
+  width: 44%;
+}
+.element-logo-txt--6 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.2rem;
+}
